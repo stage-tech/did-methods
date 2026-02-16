@@ -40,7 +40,7 @@ DIDs and DID Documents are created via the Salt service. An authorised caller su
 
 ## Read (Resolve)
 
-A registered DID may be resolved by an HTTP GET request against `https://salt.music/salt/<type>/<id>/did.json`. The result of the request is the DID Document that matches the resolved DID, if it exists. Resolution is permissionless.
+A registered DID may be resolved by an HTTP GET request against `https://salt.music/salt/{type}/{id}/did.json`. The result of the request is the DID Document that matches the resolved DID, if it exists. Resolution is permissionless.
 
 ## Update
 
